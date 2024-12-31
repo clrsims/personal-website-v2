@@ -54,22 +54,8 @@
 							<div class="col-12 text-begin">
 								<h3>
 									I created a multi-class convolutional neural network classification algorithm to identify traffic signs trained using the Kaggle - "German Traffic Sign Recognition Benchmark" database. For this project, my tech stack was pandas, numpy, and tensorflow & keras.
-                                    Then, I loaded and preprocessed the images, resizing to 32x32 and normalizing the pixel values. Then, I created the neural network: I first opted to flatten my input to a 1D array to feed into two hidden layers with ReLU activation function for non-linearity. Output layer function was softmax, apt for multi-class classification problems. For my loss function I used sparse categorical cross entropy and the standard gradient descent optimizer. I ran the first training session for 30 epochs.
+                                    Neural network architecture: I first opted to flatten my input to a 1D array to feed into two hidden layers with ReLU activation function for non-linearity. Output layer function was softmax, apt for multi-class classification problems. For my loss function I used sparse categorical cross entropy and the standard gradient descent optimizer. I ran the first training session for 30 epochs.
                                     My validation accuracy was about 96%, so I decided to move to testing the accuracy on the test set and came back with ~87% accuracy score. 
-                                </h3>
-							</div>
-						</div>
-
-                        <h4 class="mt-4">Premier League Sports Betting Algorithm</h4>
-						<div class="row justify-content-start align-items-center">
-							<div class="col-12 text-begin">
-								<h3>Developed a neural network analyzing a dataset of 2000 games, helping me gamble on Premier League sports that increased my betting accuracy by ~8%. Technologies used: Python, Keras & Tensorflow, Scikit-learn, numPy, Pandas. 
-                                    I found a dataset of every Premier League since 1994, two years after the league was founded. The initial difficulty lay in analyzing what data mattered and what didn't and choosing my architecture.
-
-                                    I decided my neural network will be a softmax multi-class classification problem, with three output neurons: probability of home team winning, drawing, and losing.
-
-                                    Additionally, I needed a way to compare how good two teams were compared to each other. Therefore, I engineered two new features, home_team_ELO and away_team_ELO from http://clubelo.com/ENG.
-
                                 </h3>
 							</div>
 						</div>
@@ -82,7 +68,7 @@
 						</div>
 
 
-						<h4 class="mt-4">Personal Blog CRUD from Scratch</h4>
+						<h4 class="mt-4">Personal Blog from Scratch</h4>
 						<div class="row justify-content-start align-items-center">
 							<div class="col-12 text-begin">
 								<h3>
@@ -93,6 +79,20 @@
                                     Pagination: calculating total results, results per page, and other pagination logic to ensure users can navigate through pages of results
                                     Password Hashing: for creating and deleting posts, I use a hashed password check for security and to authenticate actions.
 								</h3>
+							</div>
+						</div>
+
+						<h4 class="mt-4">Premier League Sports Betting Algorithm</h4>
+						<div class="row justify-content-start align-items-center">
+							<div class="col-12 text-begin">
+								<h3>Developed a neural network analyzing a dataset of 2000 games, helping me gamble on Premier League sports that increased my betting accuracy by ~8%. Technologies used: Python, Keras & Tensorflow, Scikit-learn, numPy, Pandas. 
+                                    I found a dataset of every Premier League since 1994, two years after the league was founded. The initial difficulty lay in analyzing what data mattered and what didn't and choosing my architecture.
+
+                                    I decided my neural network will be a softmax multi-class classification problem, with three output neurons: probability of home team winning, drawing, and losing.
+
+                                    Additionally, I needed a way to compare how good two teams were compared to each other. Therefore, I engineered two new features, home_team_ELO and away_team_ELO from http://clubelo.com/ENG.
+
+                                </h3>
 							</div>
 						</div>
 
