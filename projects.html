@@ -45,86 +45,59 @@
 					</div>
 				</div>
 
-				<div class="row justify-content-start align-items-start ">
+				<div class="row justify-content-between align-items-start ">
 
-					<div class="col-8 text-begin">
+					<div class="col-4 text-begin">
 						<h1>PROJECTS</h1>
 						<h4><a href="https://github.com/clrsims/traffic-sign-detection" class="atag" target="_blank">Traffic Sign Classifier</a></h4>
 						<div class="row justify-content-start align-items-center">
 							<div class="col-12 text-begin">
 								<h3>
-									I created a multi-class convolutional neural network classification algorithm to identify traffic signs trained using the Kaggle - "German Traffic Sign Recognition Benchmark" database. For this project, my tech stack was pandas, numpy, and tensorflow & keras.
-                                    Neural network architecture: I first opted to flatten my input to a 1D array to feed into two hidden layers with ReLU activation function for non-linearity. Output layer function was softmax, apt for multi-class classification problems. For my loss function I used sparse categorical cross entropy and the standard gradient descent optimizer. I ran the first training session for 30 epochs.
-                                    My validation accuracy was about 96%, so I decided to move to testing the accuracy on the test set and came back with ~87% accuracy score. 
-                                </h3>
-							</div>
-						</div>
-
-                        <h4 class="mt-4"><a href="https://arxiv.org/abs/2207.14024" class="atag" target="_blank"></a>Autonomous Driving Transformer</h4>
-						<div class="row justify-content-start align-items-center">
-							<div class="col-12 text-begin">
-								<h3>I setup, trained, and evaluated the "InterFuser: Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer" paper by CoRL 2022 on CARLA 0.9.11 benchmark scenarios, scoring high on the CARLA leaderboard. This required me to fully understand their unique "interpretable" transformer architecture, gain familiarity with CoRL's codebase, and successfully run the transformer on CARLA servers. CARLA is an open source project used to support the development, training, and validation of autonomous driving systems. </h3>
-							</div>
-						</div>
-
-
-						<h4 class="mt-4"><a class="atag" href="https://github.com/clrsims/personal-website-v1">Personal Blog from Scratch</a></h4>
-						<div class="row justify-content-start align-items-center">
-							<div class="col-12 text-begin">
-								<h3>
-                                    I added three different tools so I could manage my posts directly on my blog: a search tool, a create tool, and a delete tool. Here are some techniques I’ve used to accomplish this using PHP and SQL:
-
-                                    Dynamic Query Filters: based on user inputs, I dynamically append conditions to the SQL query allowing for customizable search.
-                                    Input handling and validation: checking for presence and non-emptiness of parameters before appending to SQL query.
-                                    Pagination: calculating total results, results per page, and other pagination logic to ensure users can navigate through pages of results
-                                    Password Hashing: for creating and deleting posts, I use a hashed password check for security and to authenticate actions.
+									A multi-class convolutional neural network classification algorithm to identify traffic signs. 
 								</h3>
 							</div>
 						</div>
 
-						<h4 class="mt-4"><a class="atag" href="https://github.com/clrsims/premier_league_sports_betting">Premier League Sports Betting Algorithm</a></h4>
+						<h4 class="mt-4"><a class="atag" href="https://github.com/clrsims/monte-carlo-pi">Monte Carlo π Estimator</a></h4>
 						<div class="row justify-content-start align-items-center">
 							<div class="col-12 text-begin">
-								<h3>Developed a neural network analyzing a dataset of 2000 games, helping me gamble on Premier League sports that increased my betting accuracy by ~8%. Technologies used: Python, Keras & Tensorflow, Scikit-learn, numPy, Pandas. 
-                                    I found a dataset of every Premier League since 1994, two years after the league was founded. The initial difficulty lay in analyzing what data mattered and what didn't and choosing my architecture.
+								<h3>A Monte Carlo simulation to estimate the value of π.
+								</h3>
+							</div>
+						</div>
 
-                                    I decided my neural network will be a softmax multi-class classification problem, with three output neurons: probability of home team winning, drawing, and losing.
+						<h4 class="mt-4"><a class="atag" href="https://github.com/clrsims/personal-website-v1">Blog From Scratch</a></h4>
+						<div class="row justify-content-start align-items-center">
+							<div class="col-12 text-begin">
+								<h3>A blog website with full CRUD functionality.</h3>
+							</div>
+						</div>
 
-                                    Additionally, I needed a way to compare how good two teams were compared to each other. Therefore, I engineered two new features, home_team_ELO and away_team_ELO from http://clubelo.com/ENG.
-
-                                </h3>
+						<h4 class="mt-4"><a class="atag" href="https://github.com/clrsims/personal-website-v1">This Website</a></h4>
+						<div class="row justify-content-start align-items-center">
+							<div class="col-12 text-begin">
+								<h3>Basic website for displaying text, formatted using JavaScript.</h3>
 							</div>
 						</div>
 
 						
 					</div>
 
-					<div class="col-4 align-items-center text-start mt-4">
-						<h2>Gradient descent :)</h2>
-						<div class="row box text-start mb-5">
+					<div class="col-7 align-items-center text-start mt-4">
+						<h2>Gradient descent</h2>
+						<div class="row box text-start mb-3">
 							<img src="img/descent.png" alt="Gradient Descent" class="img-fluid">
 						</div>
-						<h2>InterFuser simulation</h2>
-						<div class="row box text-start mb-5">
-							<img src="img/gip.gif" alt="InterFuser" class="img-fluid">
-						</div>
-                        <h2>Database</h2>
-                        <div class="row box text-start mb-5">
-                            <img src="img/database.png" alt="MySQL Database" class="img-fluid">
-                        </div>
-
-                        <h2>Blog Design</h2>
+			
+                        <h2>Monte Carlo π Estimator</h2>
                         <div class="row box text-start">
-                            <img src="img/design.png" alt="Los Angeles" class="img-fluid">
+                            <img src="img/monte-carlo.gif" alt="Monte Carlo" class="img-fluid">
                         </div>
 			
 					</div>
 				</div>
 
 				
-			</div>
-			<div class="row">
-				<span class="footer mt-5 ms-4">Developed myself. Last updated 12/31/24.</span>
 			</div>
 		</div>
 
