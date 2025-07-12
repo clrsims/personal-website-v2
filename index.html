@@ -46,24 +46,26 @@
 					</div>
 				</div>
 
-				<div class="row justify-content-start align-items-start ">
+				<div class="row justify-content-start align-items-start">
 
 					<div class="col-8 text-begin">
 						<h1>CHRISTOPHER SIMS</h1>
+						<div class="col-10 justify-content-center">
+							<img class="img-fluid bordered-image" src="img/professional.jpg">
+						</div>
+						<br>
 						<span class="signature">currently,</span>
-						<div class="row justify-content-start align-items-center mt-3">
+						<div class="row justify-content-start align-items-center mt-1">
 							<div class="col-10 text-begin">
 								<h3>
 									<body>
 										I'm an incoming fourth year undergraduate at the University of Southern California, studying applied mathematics and computer science.
 										<br><br>
 										My most recent work experiences include machine learning research at the <a href="https://sites.google.com/usc.edu/autodrivelab/team?authuser=0" class="atag">USC AutoDrive Lab</a>, technical product management at <a href="https://www.frenchydigital.com/" class="atag" target="_blank">Frenchy Digital</a>, and data science & analytics at <a href="https://hptechventures.com/" class="atag" target="_blank">Hewlett-Packard Tech Ventures</a>.
-										<br><br>  
-										My relevant coursework includes mathematical statistics, probability theory, data structures, algorithms, advanced linear algebra, financial investments, discrete mathematics, financial investments, and multivariable calculus.
 										<br><br>
 										Outside of academics, I enjoy learning Mandarin, playing soccer, chess, and poker, weightlifting, and reading.
 										<br><br>
-										Please feel free to reach out to me on X or email (clsims@usc.edu)! I love meeting new people and talking about interesting things :)
+										Please feel free to reach out to me on email (clsims@usc.edu)! I love meeting new people and talking about interesting things :)
 									</body>
 
 								</h3>
@@ -151,7 +153,7 @@
 			const icon = document.getElementById("icon");
 
 			// Add dark-mode class to all elements that need it
-			const elementsToToggle = document.querySelectorAll(".box, .misc, .misc-header, i");
+			const elementsToToggle = document.querySelectorAll(".box, .misc, .misc-header, i, .bordered-image");
 
 			// Check localStorage for saved dark mode preference
 			if (localStorage.getItem("darkMode") === "enabled") {
