@@ -323,8 +323,11 @@
 				if (state.boostLeft > 0) state.boostLeft -= 1;
 
 				// optional watermark
-				s.noStroke(); s.fill(isDarkTheme()? 180 : 90); s.textSize(15);
-				s.text('2D Brownian Motion', s.width - 160, 20);
+				s.noStroke();
+				s.fill(isDarkTheme() ? s.color(235, 235, 235) : s.color(50, 50, 50)); 
+				s.textSize(12);
+				s.text('Animation of 2D Brownian Motion', s.width - 200, 30);
+
 			};
 			});
 
